@@ -1,0 +1,3 @@
+index=* EventCode=1
+| search powershell
+| table _time, Image, CommandLine
